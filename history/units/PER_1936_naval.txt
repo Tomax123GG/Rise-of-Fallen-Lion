@@ -1,0 +1,183 @@
+﻿# Naval OBB withouth MTG DLC #
+units= {
+	fleet = {
+		name = "Navgan Shahanshahi Pars"			
+		naval_base = 12832  
+		task_force = {				
+			name = "Navchegan Jonub"
+			location = 12832 
+			ship = {
+				name = "Sefidrood"
+				pride_of_the_fleet = yes
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = GER 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Nahang" 
+				pride_of_the_fleet = yes 
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Nowshahr" 
+				pride_of_the_fleet = yes 
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Shahsavar" 
+				pride_of_the_fleet = yes 
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+		}
+		task_force = {
+			location = 7982
+			name = "Navgan Jangi"
+			ship = { 
+				name = "Babr" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Palang" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Shahbaz" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Simurgh" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Karkas" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Shahrokh" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				equipment = { 
+					battleship_1 = { 
+						amount = 1 
+						owner = ITA 
+					} 
+				} 
+			}
+		}
+		task_force = {
+			location = 7982
+			name = "Navgan Sangin"
+			ship = { 
+				name = "Noah" 
+				pride_of_the_fleet = yes 
+				definition = heavy_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Zara Class"
+					} 
+				} 
+			}
+			ship = { 
+				name = "Musa" 
+				pride_of_the_fleet = yes 
+				definition = heavy_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Zara Class"
+					} 
+				} 
+			}
+		}
+	}
+	fleet = {
+		name = "Navgan Shahanshahi Khazar"			
+		naval_base = 7602  
+		task_force = {				
+			name = "Navchegan Shomal"
+			location = 7602 
+			ship = {
+				name = "Gorgan"
+				pride_of_the_fleet = yes
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = HOL 
+					} 
+				} 
+			}
+			ship = {
+				name = "Babolsar"
+				pride_of_the_fleet = yes
+				definition = light_cruiser 
+				equipment = { 
+					heavy_cruiser_1 = { 
+						amount = 1 
+						owner = GER 
+					} 
+				} 
+			}
+		}
+	}
+}

@@ -1,0 +1,259 @@
+﻿division_template = {
+	name = "Guard e Shahanshahi"			
+
+	division_names_group = PER_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+	
+}
+division_template = {
+	name = "Piyade Nezam"			
+
+	division_names_group = PER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+
+}
+division_template = {
+	name = "Asparan"			
+
+	division_names_group = PER_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Guard Shahanshahi Markaz"
+		location = 10837
+		division_template = "Guard e Shahanshahi"		
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Guard Shahanshahi Shomal-Gharb"
+		location = 1896
+		division_template = "Guard e Shahanshahi"		
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Guard Shahanshahi Jonub"
+		location = 7953
+		division_template = "Guard e Shahanshahi"		
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		name = "Brigard e Ghazzagh - Asparan"
+		location = 4825
+		division_template = "Asparan"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Brigard e Ghazzagh - Piyade"
+		location = 4901
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Piyade Nezam Jonub 1"
+		location = 10913
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Piyade Nezam Jonub 2"
+		location = 7982
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Piyade Nezam Gharb 1"
+		location = 1822
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Piyade Nezam Gharb 2"
+		location = 5098
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Piyade Nezam Gharb 3"
+		location = 8040
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Savare Nezam Gharb"
+		location = 4943
+		division_template = "Asparan"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "Vahed Shargh - Piyade Mashhad"
+		location = 5029
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Vahed Shargh - Piyade Afghan"
+		location = 7990
+		division_template = "Piyade Nezam"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Vahed Shargh - Savare Nezam"
+		location = 10351
+		division_template = "Asparan"		
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+
+	}
+
+}
+
+air_wings = {
+	266 = {
+		fighter_equipment_0 =  {
+			owner = "SOV" 
+			amount = 20
+		}
+		name = "Jangande Rus Markaz"
+		fighter_equipment_0 =  {
+			owner = "PER" 
+			amount = 48
+		}
+		name = "Jangande Pars Markaz"
+		fighter_equipment_0 =  {
+			owner = "FRA" 
+			amount = 24
+		}
+		name = "Jangade Fransavi Markaz"
+		CAS_equipment_1 =  {
+			owner = "GER" 
+			amount = 18
+		}
+		name = "Navgan Hemayat Havayi Markaz"
+	}
+	413 = {
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 20
+		}
+		name = "Jangande Almani Jonub"
+		CAS_equipment_1 =  {
+			owner = "GER" 
+			amount = 24
+		}
+		name = "Navgan Hemayat Havayi Jonub"
+	}
+	419 = {
+		fighter_equipment_0 =  {
+			owner = "SOV" 
+			amount = 16
+		}
+		name = "Jangande Rus Shomal-Gharb"
+		CAS_equipment_1 =  {
+			owner = "FRA" 
+			amount = 24
+		}
+		name = "Jangande Fransavi Shomal-Gharb"
+	}
+	416 = {
+		fighter_equipment_0 =  {
+			owner = "PER" 
+			amount = 20
+		}
+		name = "Jangnade Pars Shargh"
+		CAS_equipment_1 =  {
+			owner = "PER" 
+			amount = 20
+		}
+		name = "Navgan Hemayat Havayi Shargh"
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "PER"
+		}
+		requested_factories = 1
+		progress = 0.29
+		efficiency = 100
+	}
+}

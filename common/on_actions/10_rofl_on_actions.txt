@@ -1,0 +1,23 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SAU = {
+				diplomatic_relation = {
+					country = YEM
+					relation = non_aggression_pact
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Battle for the Bosporus"
+				}
+				PER = {
+					give_resource_rights = { receiver = ENG state = 413 }
+				}
+			}
+		}
+		
+	}
+}

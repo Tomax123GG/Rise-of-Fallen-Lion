@@ -1,0 +1,196 @@
+﻿# Naval OBB withouth MTG DLC #
+units= {
+	fleet = {
+		name = "Navgan Shahanshahi Pars"			
+		naval_base = 12832  
+		task_force = {				
+			name = "Navchegan Jonub"
+			location = 12832
+			ship = { 
+				name = "Sefidrood" 
+				definition = light_cruiser 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_light_1 = { 
+						amount = 1 
+						owner = GER 
+						version_name = "Type 24 Class" 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Nahang" 
+				definition = heavy_cruiser 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class" 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Shahsavar" 
+				definition = light_cruiser 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					} 
+				} 
+			}
+			ship = { 
+				name = "Aras" 
+				definition = light_cruiser 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class" 
+					} 
+				} 
+			}
+		}
+		task_force = {
+			location = 7982
+			name = "Navgan Jangi"
+			ship = {
+				name = "Babr" 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					}
+				} 
+			}
+			ship = { 
+				name = "Palang" 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					}
+				} 
+			}
+			ship = { 
+				name = "Karkas" 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					} 
+				} 
+			}
+			ship = { 
+				name = "Simurgh" 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					}
+				} 
+			}
+			ship = { 
+				name = "Shahbaz" 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class" 
+					}
+				} 
+			}
+			ship = { 
+				name = "Shahrokh" 
+				pride_of_the_fleet = yes 
+				definition = battleship 
+				start_experience_factor = 0.1 
+				equipment = { 
+					ship_hull_heavy_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Andrea Doria Class"
+					} 
+				} 
+			}
+		}
+		task_force = {
+			location = 7982
+			name = "Navgan Sangin"
+			ship = { 
+				name = "Noah" 
+				definition = heavy_cruiser 
+				start_experience_factor = 0.1
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Zara Class" 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Musa" 
+				definition = heavy_cruiser 
+				start_experience_factor = 0.1
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = ITA 
+						version_name = "Zara Class" 
+					} 
+				} 
+			}
+		}
+	}
+	fleet = {
+		name = "Navgan Shahanshahi Khazar"			
+		naval_base = 7602  
+		task_force = {				
+			name = "Navchegan Shomal"
+			location = 7602 
+			ship = { 
+				name = "Gorgan" 
+				definition = light_cruiser 
+				start_experience_factor = 0.1
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = HOL 
+						version_name = "Java Class" 
+					} 
+				} 
+			}
+			ship = { 
+				name = "Babolsar" 
+				definition = light_cruiser 
+				start_experience_factor = 0.1
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = GER 
+						version_name = "Königsberg Class" 
+					} 
+				} 
+			}
+		}
+	}
+}

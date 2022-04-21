@@ -1,0 +1,26 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		7602 10351 
+	}
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			7602 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			7602 1
+		}
+		add_core_of = PER
+		add_core_of = TMS
+
+	}
+	manpower=93254
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

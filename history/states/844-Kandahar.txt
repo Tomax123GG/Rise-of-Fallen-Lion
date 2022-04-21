@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		1948 2101 4949 5020 5064 8090 10789 
+	}
+	history={
+		owner = AFG
+		victory_points = {
+			5064 1 
+		}
+		victory_points = {
+			1948 1 
+		}
+		add_core_of = AFG
+
+	}
+	manpower=348965
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

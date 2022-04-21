@@ -1,0 +1,186 @@
+﻿division_template = {
+	name = "Guard e Saltanati"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0}
+	}
+	priority = 2
+}
+division_template = {
+	name = "Artesh Piyade"				
+
+	division_names_group = AFG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Artesh Savare"				
+
+	division_names_group = AFG_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Artesh Saltanati Kabul"
+		location = 10737
+		division_template = "Guard e Saltanati"
+		start_experience_factor = 0.4
+		force_equipment_variants = {
+			light_tank_chassis_0 = {
+				owner = AFG
+				creator = FRA
+				version_name = "FT mod. 31"
+			}
+		}
+	}
+	division = {
+		name = "Artesh Saltanati Herat"
+		location = 4893
+		division_template = "Guard e Saltanati"
+		start_experience_factor = 0.4
+		force_equipment_variants = {
+			light_tank_chassis_0 = {
+				owner = AFG
+				creator = FRA
+				version_name = "FT mod. 31"
+			}
+		}
+	}
+	division = {
+		name = "Artesh Piyade Farah"
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+		location = 2062
+	}
+	division = {
+		name = "Artesh Piyade Ghazni"
+		location = 12769
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Piyade Faizabad"
+		location = 12653
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	#Herat Army
+	division = {
+		name = "Artesh Piyade Herat"
+		location = 4893
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Piyade Mazar i Sharif"
+		location = 7584
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Piyade Maymeneh"
+		location = 1948
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Piyade Kandahar"
+		location = 5064
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Piyade Jalalabad"
+		location = 13237
+		division_template = "Artesh Piyade"
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Artesh Savare Zaranj"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 1948
+		division_template = "Artesh Savare"
+		start_equipment_factor = 0.3
+
+	}	
+	division = {
+		name = "Artesh Savare Kunduz"
+		location = 12248
+		division_template = "Artesh Savare"
+		start_equipment_factor = 0.3
+
+	}	
+	division = {
+		name = "Artesh Savare Sayyar"
+		location = 8053
+		division_template = "Artesh Savare"
+		start_equipment_factor = 0.3
+
+	}		
+
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AFG"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}
+
+air_wings = {
+	267 = {
+		fighter_equipment_0 = {
+			owner = SOV
+			amount = 8
+		}
+		fighter_equipment_0 = {
+			owner = ITA
+			amount = 12
+		}
+		fighter_equipment_0 = {
+			owner = RAJ
+			amount = 4
+		}
+	}
+}

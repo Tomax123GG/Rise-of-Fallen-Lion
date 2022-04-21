@@ -1,0 +1,123 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"			
+
+	division_names_group = IRQ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Alfurqat Aljabalia"				
+
+	division_names_group = IRQ_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Alfurqat Alfursan"				
+
+	division_names_group = IRQ_CAV_01
+
+	regiments = {
+		Cavalry = { x = 0 y = 0 }
+		Cavalry = { x = 0 y = 1 }	
+		Cavalry = { x = 1 y = 0 }
+		Cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2097
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3916
+		division_template = "Alfurqat Almasha"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10106
+		division_template = "Alfurqat Aljabalia"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 2089
+		division_template = "Alfurqat Alfursan"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+
+	}
+}
+
+
+air_wings = {
+	291 = {
+		CAS_equipment_1 =  {
+			owner = "GER" 
+			amount = 25
+		}
+		name = "Daem Jawiyun Almaniya"
+		fighter_equipment_0 =  {
+			owner = "ITA" 
+			amount = 12
+		}
+		name = "Tayirat Muqatilat Iitalia"
+		fighter_equipment_0 =  {
+			owner = "IRQ" 
+			amount = 32
+		}
+		name = "Tayirat Muqatilat Eraghia"
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "IRQ"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

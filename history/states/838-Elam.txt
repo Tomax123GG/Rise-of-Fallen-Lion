@@ -1,0 +1,22 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		829 5050 10774 
+	}
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			829 1
+		}
+		add_core_of = PER
+		add_core_of = KUR
+
+	}
+	manpower=210278
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

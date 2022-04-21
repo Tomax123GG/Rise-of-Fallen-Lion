@@ -1,0 +1,652 @@
+characters={
+	PER_reza_shah_pahlavi={
+		name="Reza Shah Pahlavi"
+		portraits={
+			civilian={
+				large=GFX_portrait_Reza_Shah_Pahlavi
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1944.7.26.1"
+			id=-1
+			traits = {
+				autocratic_imperialist
+				dictator
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1944.7.26.1"
+			id=-1
+			traits = {
+				autocratic_imperialist
+				dictator
+			}
+		}
+	}
+	PER_soleyman_mirza_eskandari={
+		name="Soleyman Mirza Eskandari"
+		portraits={
+			civilian={
+				large=GFX_portrait_Soleyman_Mirza_Eskandari
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PER_mohammad_mosaddegh={
+		name="Mohammad Mosaddegh"
+		portraits={
+			civilian={
+				large=GFX_portrait_Dalir_Pesyan
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ financial_expert }
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}
+	PER_hasan_arfa={
+		name="Hassan Arfa"
+		portraits={
+			army={
+				large=GFX_portrait_Hasan_Arfa
+				small=GFX_portrait_Hasan_Arfa_small
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PER_morteza_yazdanpanah={
+		name="Morteza Yazdanpanah"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-2
+		}
+	}
+    PER_ahmad_amirahmadi={
+		name="Ahmad Amir Ahmadi"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		field_marshal={
+			traits={ cavalry_officer mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-3
+		}
+		advisor={
+			slot = high_command
+			idea_token = PER_ahmad_amirahmadi
+			ledger = army
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				army_cavalry_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+    PER_mohammad_shahbakhti={
+		name="Mohammad Shahbakhti"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		field_marshal={
+			traits={ infantry_leader hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-4
+		}
+	
+	}
+	PER_ali_razmara={
+		name="Ali Razmara"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			traits={ organizer engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-5
+		}
+		advisor={
+			slot = high_command
+			ledger = army
+			idea_token = PER_ali_razmara
+			allowed = {
+				original_tag = PER
+			}
+			available = {
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+			traits = {
+				army_logistics_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}	
+	}
+	PER_amanollah_jahanbani={
+		name="Ammanollah Jahanbani"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader desert_fox }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-6
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = PER_amanollah_jahanbani
+			allowed = {
+				original_tag = PER
+			}
+			available = {
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}
+			}
+			traits = {
+				nationalist_symbol
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+    PER_abdollah_hedayat={
+		name="Abdollah Hedaiat"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-7
+		}
+	}
+	PER_abdollah_amir_tahmasebi={
+		name="Abdollah Amir Tahmasebi"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-8
+		}
+		advisor={
+			slot = army_chief
+			idea_token = PER_abdollah_amir_tahmasebi
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				army_chief_old_guard
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PER_mohammadhossein_ayrom={
+		name="Mohmmadhossein Ayrom"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-9
+		}
+	}
+	PER_azizollah_zarghami={
+		name="Azizollah Zarghami"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-10
+		}
+	}
+	PER_esmaeel_shafaee={
+		name="Esmaeel Shafaee"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-11
+		}	
+	}
+	PER_mohammadsadegh_kopal={
+		name="Mohammadsadegh Kopal"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		corps_commander={
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-11
+		}
+		advisor={
+			slot = army_chief
+			idea_token = PER_mohammadsadegh_kopal
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				army_chief_offensive_1 
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PER_karim_buzarjahromi={
+		name="Karim Buzarjahromi"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		field_marshal={
+			traits={ organizer skilled_staffer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-12
+		}
+		advisor={
+			slot = army_chief
+			idea_token = PER_karim_buzarjomehri
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				army_chief_defensive_1 
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PER_alireza_pahlavi={
+		name = "Alireza Pahlavi"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = PER_alireza_pahlavi
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				military_theorist
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PER_gholamali_bayandor={
+		name="Gholamali Bayandor"
+		portraits={
+			army={
+				large=GFX_portrait_khar
+				small=GFX_portrait_khar
+			}
+		}
+        navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=100
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = PER_gholamali_bay
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				navy_chief_decisive_battle_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+	PER_ahmad_khan_nakhjavan={
+		advisor={
+			slot = air_chief
+			idea_token = PER_ahmad_khan_nakhjavan
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				air_chief_ground_support_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		advisor={
+			slot = high_command
+			ledger = air
+			idea_token = PER_ahmad_khan_nakhjavan_high_command
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				air_air_combat_training_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		name="Ahmad Khan Nakhjavan"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_arab_1"
+			}
+		}
+	}
+	PER_fazlollah_zahedi={
+		advisor={
+			slot = high_command
+			idea_token = PER_fazlollah_zahedi
+			ledger = army
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-11
+		}
+		name="Fazlollah Zahedi"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+			}
+		}
+	}
+	PER_hedayatollah_gilanshah={
+		advisor={
+			slot = air_chief
+			idea_token = PER_hedayatollah_gilanshah
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				air_chief_reform_1
+			}
+		}
+		name = "Hedayatollah Gilanshah"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_2"
+			}
+		}
+	}
+	PER_mohammed_reza_pahlavi={
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = PER_mohammed_reza_pahlavi
+			ledger = army
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+		name="Mohammed Reza Pahlavi"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_3"
+			}
+		}
+	}
+	PER_ali_soheili={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_ali_zohayli
+			allowed  = {
+					original_tag  = PER
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+		name="Ali Soheili"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+	}
+	PER_mahmud_jam={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_mahmud_jam
+			allowed  = {
+					original_tag  = PER
+				}
+				traits  = {
+					shadow_of_calles 
+				}
+		}
+		name="Mahmud Jam"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+	}
+	PER_ali_khan_mansour={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_ali_khan_mansour
+			allowed  = {
+					original_tag  = PER
+				}
+				traits  = {
+					quartermaster_general 
+				}
+		}
+		name="Rajabali Mansour"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+	}
+	PER_mohammad_ali_foroghi={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_mohammad_ali_foroghi
+			allowed  = {
+				original_tag  = PER
+			}
+			traits  = {
+				leftist_freemason 
+			}
+		}
+		name="Mohammad Ali Foroghi"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+	}
+	PER_mahdigholi_hedayat={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_mahdigholi_hedayat
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				old_coup_maker
+			}
+		}
+		name = "Mahdigholi Hedaiat"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+	}
+	PER_ahmadmatin_daftari={
+		advisor={
+			slot = political_advisor
+			idea_token = PER_ahmadmatin_daftari
+			allowed = {
+				original_tag = PER
+			}
+			traits = {
+				right_industrialist
+			}
+		}
+		name = "Ahmadmatin Daftari"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+	}
+}

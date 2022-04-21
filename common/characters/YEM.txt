@@ -1,0 +1,93 @@
+characters={
+	YEM_imam_yahya={
+		name="Imam Yahya"
+		portraits={
+			civilian={
+				large="GFX_portrait_yemen_imam_yahya"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YEM_ahmad_bin_yaha={
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_ahmad_bin_yaha
+			allowed = {
+				original_tag = YEM
+			}
+			traits = {
+				yemeni_prince
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+		name="Ahmad bin Yahya"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_3"
+			}
+		}
+	}
+	YEM_muhammad_al_badr={
+		advisor={
+			slot = political_advisor
+			idea_token = YEM_muhammad_al_badr
+			allowed = {
+				original_tag = YEM
+			}
+			traits = {
+				staunch_monarchist
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		name="Muhammad Albadr"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_3"
+			}
+		}
+	}
+	YEM_hassan_hamid_addin_bin_yahya = {
+		advisor = {
+			slot = high_command
+			idea_token = YEM_hassan_hamid_addin_bin_yahya
+			allowed = {
+				original_tag = YEM
+			}
+			traits = {
+				the_director
+			}
+		}
+		name="Hassan Hamidaddin bin Yahya"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_3"
+			}
+		}
+	}
+}

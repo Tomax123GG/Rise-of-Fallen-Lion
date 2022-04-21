@@ -1,0 +1,25 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		6826 8123 10793 
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			6826 1 
+		}
+		victory_points = {
+			8123 1 
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+	}
+	manpower=356759
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

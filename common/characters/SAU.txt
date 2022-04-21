@@ -1,0 +1,169 @@
+characters={
+	SAU_abdulaziz_ibn_abdur_rahman_al_saud={
+		name="Abdulaziz Ibn Abdurrahman al-Saud"
+		portraits={
+			civilian={
+				large=GFX_portrait_Abdulaziz_Ibn_Saud
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			expire="1953.1.1.1"
+			id=-1
+		}
+	}
+	SAU_saud_ibn_abdulaziz_al_saud={
+		advisor={
+			slot = high_command
+			idea_token = SAU_saud_ibn_abdulaziz_al_saud
+			ledger = army
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				army_regrouping_1 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name="Saud bin Abdulaziz al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+	SAU_faisal_ibn_abdulaziz_al_saud={
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_faisal_ibn_abdulaziz_al_saud
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				silent_workhorse 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		name="Faisal bin Abdurrahman al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	SAU_khalid_ibn_abdulaziz_al_saud={
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_khalid_ibn_abdulaziz_al_saud
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				snuggler 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		name="Khalid bin Abdurrahman al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	SAU_muhammad_ibn_abdur_rahman_al_saud={
+		advisor={
+			slot = high_command
+			idea_token = SAU_muhammad_ibn_saud
+			ledger = army
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				army_cavalry_1 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name="Muhammad bin Abdurrahman al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	SAU_muhammad_ibn_abdulaziz_al_saud = {
+		advisor={
+			slot = army_chief
+			idea_token = SAU_muhammad_ibn_abdulaziz_al_saud
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				army_chief_offensive_1
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+		name="Muhammad bin Abdulaziz al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+	SAU_saud_kabir_bin_abdulaziz_al_saud = {
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_saud_kabir_bin_abdulaziz_al_saud
+			allowed  = {
+				original_tag  = SAU
+			}
+			traits  = {
+				face_licker
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		name="Muhammad bin Abdulaziz al-Saud"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_arab_1"
+			}
+		}
+	}
+}

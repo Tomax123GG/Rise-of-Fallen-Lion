@@ -1,0 +1,92 @@
+﻿division_template = {
+	name = "Alfurqat Almasha"		# 'Infantry Division' - Represents local tribal levies (militia)
+
+	division_names_group = SAU_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Alfurqat Aljabalan"		# Camel-mounted levies (militia)
+
+	division_names_group = SAU_CAV_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+		camelry = { x = 1 y = 0 }
+		camelry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Aljabalan Almalika 'Medina'"
+		location = 7934
+		division_template = "Alfurqat Aljabalan"		
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Aljabalan Almalika 'Asir'"
+		location = 5006
+		division_template = "Alfurqat Aljabalan"		
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Aljabalan Almalika 'Tabuk'"
+		location = 12101
+		division_template = "Alfurqat Aljabalan"		
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Aljabalan Almalika 'Hail'"
+		location = 10892
+		division_template = "Alfurqat Aljabalan"		
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Aljabalan Almalika 'Dammam'"
+		location = 12702
+		division_template = "Alfurqat Aljabalan"		
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Alfurqat Ar Riyad"
+		location = 12727
+		division_template = "Alfurqat Almasha"	
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "Alfurqat Jiddah"
+		location = 12883
+		division_template = "Alfurqat Almasha"
+		start_equipment_factor = 0.3
+
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SAU"
+		}
+		requested_factories = 1
+		progress = 0.41
+		efficiency = 100
+	}
+}

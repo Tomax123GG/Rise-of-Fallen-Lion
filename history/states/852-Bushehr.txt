@@ -1,0 +1,38 @@
+state={
+	id=852
+	name="STATE_852"
+	resources={
+		oil=16
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			7982 3 
+		}
+		victory_points = {
+			12832 1 
+		}
+		buildings = {
+			infrastructure = 2
+			7982 = {
+				naval_base = 4
+
+			}
+			12832 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1889 4959 7982 10797 12832 
+	}
+	manpower=538619
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
