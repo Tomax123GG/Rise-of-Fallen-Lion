@@ -7,4 +7,4 @@ tags={
 	"National Focuses"
 }
 name="Rise of Fallen Lion"
-supported_version="1.11.10"
+supported_version="1.12.*"
